@@ -18,6 +18,10 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+	
+	p {
+		text-align:justify;
+	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -1630,12 +1634,12 @@
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Amery.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
 	}
-
+	
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -2389,7 +2393,7 @@
 				ul.contact li:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: FontAwesome, Academicons;
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -3124,10 +3128,14 @@
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Amery.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
+			}
+			
+			#banner.clouds{
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GrISClouds.jpg");
 			}
 
 		}
@@ -3234,12 +3242,13 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Amery.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
 		}
-
+		
+		
 	}
 
 	@media screen and (max-width: 980px) {
@@ -3396,6 +3405,14 @@
 				border-radius: 100%;
 				margin: 0 3em 2em 0;
 				width: 22em;
+				overflow: hidden;
+				-ms-flex: 1;
+			}
+			
+			.wrapper.spotlight .image .small{
+				border-radius: 100%;
+				margin: 0 3em 2em 0;
+				width: 10em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
@@ -3629,13 +3646,17 @@
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg_Amery.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
-
+		
+		#footer.clouds{
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GrISClouds.jpg");
+		}
+		
 	}
 
 	@media screen and (max-width: 980px) {
