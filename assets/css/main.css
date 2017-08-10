@@ -3153,6 +3153,10 @@
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GICs.jpg");
 			}
 			
+			#banner.mass2ant{
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_EA_shelves.jpg");
+			}
+			
 			#banner.larsen{
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Larsen.jpg");
 			}
@@ -3715,6 +3719,10 @@
 		
 		#footer.gics{
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GICs.jpg");
+		}
+		
+		#footer.mass2ant{
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_EA_shelves.jpg");
 		}
 		
 		#footer.larsen{
