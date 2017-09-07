@@ -3158,7 +3158,7 @@
 			}
 			
 			#banner.harvey{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_harvey.jpg");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Harvey.jpg");
 			}
 			
 			#banner.larsen{
@@ -3730,7 +3730,7 @@
 		}
 		
 		#footer.harvey{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_harvey.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Harvey.jpg");
 		}
 		
 		#footer.larsen{
