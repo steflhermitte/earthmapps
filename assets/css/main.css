@@ -3156,6 +3156,14 @@
 			#banner.mass2ant{
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_EA_shelves.jpg");
 			}
+
+			#banner.deepv{
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Netherlands.jpg");
+			}
+
+			#banner.deepv2{
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_deepV.jpg");
+			}
 			
 			#banner.harvey{
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Harvey.jpg");
@@ -3727,6 +3735,14 @@
 		
 		#footer.mass2ant{
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_EA_shelves.jpg");
+		}
+
+		#footer.deepv{
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Netherlands.jpg");
+		}
+
+		#footer.deepv2{
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_deepV.jpg");
 		}
 		
 		#footer.harvey{
