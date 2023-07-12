@@ -3016,6 +3016,7 @@
 				max-height: 100%;
 				overflow-y: auto;
 				overflow-x: hidden;
+				min-height: 50vh;
 			}
 
 				#menu .inner .close {
