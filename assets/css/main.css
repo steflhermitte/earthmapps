@@ -3166,6 +3166,10 @@
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_ocean.jpg");
 			}
 
+			#banner.wad{
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_wad.jpg");
+			}
+
 			#banner.deepv{
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Netherlands.jpg");
 			}
@@ -3752,6 +3756,10 @@
 
 		#footer.ocean{
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_ocean.jpg");
+		}
+
+		#footer.wad{
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_wad.jpg");
 		}
 
 		#footer.deepv{
