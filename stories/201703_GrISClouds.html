@@ -151,12 +151,12 @@ Greenland’s ice sheet is the second largest ice mass in the world – the larg
 						</div>
 			
 					<!-- Scripts -->
-						<script src="assets/js/skel.min.js"></script>
-						<script src="assets/js/jquery.min.js"></script>
-						<script src="assets/js/jquery.scrollex.min.js"></script>
-						<script src="assets/js/util.js"></script>
-						<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-						<script src="assets/js/main.js"></script>
+						<script src="../assets/js/skel.min.js"></script>
+						<script src="../assets/js/jquery.min.js"></script>
+						<script src="../assets/js/jquery.scrollex.min.js"></script>
+						<script src="../assets/js/util.js"></script>
+						<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+						<script src="../assets/js/main.js"></script>
 						<!-- Google Analytics -->
 						<script>
 						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -181,7 +181,7 @@ Greenland’s ice sheet is the second largest ice mass in the world – the larg
 								});
 			
 								// Fetch the menu content from a separate file (menu.html in this example)
-								fetch('menu.html')
+								fetch('../menu.html')
 									.then(response => response.text())
 									.then(data => {
 										dynamicMenuLoader.innerHTML = data;
@@ -189,7 +189,7 @@ Greenland’s ice sheet is the second largest ice mass in the world – the larg
 									.catch(error => console.log(error));
 			
 								// Fetch the footer content from a separate file (footer.html in this example)
-								fetch('footer.html')
+								fetch('../footer.html')
 									.then(response => response.text())
 									.then(data => {
 										dynamicFooterLoader.innerHTML = data;
