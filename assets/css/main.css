@@ -3701,7 +3701,7 @@
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			margin: 4em 0 2em 0;
+			margin: 1em 0 2em 0;
 			padding: 2em 0 0 0;
 			width: 100%;
 		}
@@ -3710,7 +3710,7 @@
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
 				color: rgba(255, 255, 255, 0.35);
 				display: inline-block;
-				font-size: 0.9em;
+				font-size: 0.6em;
 				line-height: 1;
 				margin-left: 1em;
 				padding: 0;
