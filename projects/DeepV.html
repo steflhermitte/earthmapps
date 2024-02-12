@@ -1,110 +1,171 @@
 <!DOCTYPE HTML>
+<!--
+	Eartmapps.io website by Stef Lhermitte derived from the Solid State (HTML5 UP) template
+-->
 <html>
-<head>
-    <title>EarthMapps.io | DeepVeeg</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../assets/css/main.css" />
-    <link rel="icon" type='image/x-icon' href="../images/favicon-globe.ico"/>
-    <meta name="keywords" content="Stef Lhermitte">
-</head>
-<body style='background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../images/bg_deepV.jpg")'>
+	<head>
+		<title>EarthMapps.io | DeepVeeg</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="icon" type='image/x-icon' href="..images/favicon-globe.ico"/>
+		<meta name="keywords" content="Stef Lhermitte">
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body style='background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../images/bg_deepV.jpg")'>
 
-<!-- Page Wrapper -->
-<div id="page-wrapper">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-    <!-- Header -->
-    <header id="header" class="alt">
-        <h1><a href="index.html">EarthMapps.io | DeepV</a></h1>
-        <nav>
-            <a href="#menu" id="menu-toggle">Menu</a>
-        </nav>
-    </header>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">EarthMapps.io | DeepV</a></h1>
+						<nav>
+							<a href="#menu" id="menu-toggle">Menu</a>
+						</nav>
+					</header>
 
-    <!-- Menu -->
-    <nav id="menu">
-        <div class="inner">
-            <h2>Menu</h2>
-            <div id="dynamic-menu-loader"></div>
-        </div>
-    </nav>
+				<!-- Menu -->
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<div id="dynamic-menu-loader"></div>
+						<!-- <a href="#" class="close">Close</a> -->
+					</div>
+				</nav>
 
-    <!-- Banner -->
-    <section id="banner" class='deepv2'>
-        <div class="inner">
-            <div class="logo"><span class="icon fa-tree"></span></div>
-            <h2>DeepVeeg</h2>
-            <p>Deepfaking ecosystem response to climate extremes</p>
-        </div>
-    </section>
+				<!-- Banner -->
+					<section id="banner" class='deepv2'>
+						<div class="inner">
+							<div class="logo"><span class="icon fa-tree"></span></div>
+							<h2>DeepVeeg</h2>
+							<p>Deepfaking ecosystem response to climate extremes</p>
+						</div>
+					</section>
 
-    <!-- Wrapper -->
-    <section id="wrapper">
+				<!-- Wrapper -->
+					<section id="wrapper" >
+							
+							<!-- You? -->
+								<section id="two" class="wrapper spotlight style1 alt" >
+									<div class="inner">
+										<div class="content">
+											<h2>Project summary</h2>
+											<p><span class="icon fa-graduation-cap"></span> 30-month postdoc project <br/>
+												<a href="https://www.kuleuven.be/onderzoek/portaal/#/projecten/3E230110?hl=en&lang=en", target="_blank"><span class="icon fa-university"></span> KU Leuven</a> <br/>
+												<span class="icon fa-euro"></span> funded by <a href="https://eo.belspo.be/en" target='_blank'>the Belspo Stereo program</a></p>
 
-        <!-- Project Description -->
-        <section id="project-description" class="wrapper spotlight style1">
-            <div class="inner">
-                <a href="javascript:void(0)" onclick="toggleProjectDescription()" class="expand-project-description">Project Description</a>
-                <div id="projectDescriptionContent" style="display:none;">
-                    <h2>Project Summary</h2>
-                    <!-- Project Summary Content -->
-                    <p>30-month postdoc project at KU Leuven, funded by the Belspo Stereo program.</p>
+											<h2>Project description</h2>
+											<p>Forecasting ecosystem response to climate extremes is a crucial aspect of understanding and mitigating the impacts of climate change. However, the accuracy of current vegetation models in predicting the spatiotemporal behavior of ecosystems and their dependence on environmental factors and macro-/microclimatic conditions is limited. This is primarily due to the simplistic parametric nature of these models and the lack of precise data to constrain them. To address this limitation, we propose an innovation project aimed at developing data-driven, spatially explicit ecosystem response models using remote sensing data and conditional Generative Adversarial Networks (cGANs).</p>
+											<p>cGANs are powerful deep learning tools commonly used to generate synthetic data that closely resemble real-world data. They have achieved significant success in various domains such as image and vision computing, video and language processing. For instance, cGANs have been used to generate realistic fake true color and multispectral satellite images based on known environmental conditions or projections of urban development guided by physics-constrained background conditions.</p>
+											<p>In the DeepV project, we aim to expand the application of cGANs by developing techniques to generate synthetic satellite image time series depicting ecosystem responses. These synthetic time series will be based on globally-available Sentinel-2 remote-sensing data and environmental and hydrometeorological conditions derived from reanalysis data and topography. Our goal is to explore the use, expansion, and refinement of cGANs with innovative techniques that incorporate time series information and biophysical constraints.</p>
+											<p>To accomplish this, we will train the developed cGANs using the vast archives of Sentinel-2 satellite data, including satellite imagery, environmental data, and hydrometeorological data. By establishing a climate-to-ecosystem response rule, we can leverage these trained cGANs to simulate ecosystem responses based on background environmental conditions and projected climate extremes. Consequently, these models will serve as valuable tools for assessing ecosystem sensitivity.</p>
+											<p>To validate the effectiveness of the developed methodologies, we will apply the techniques to historical Sentinel-2 time series of test sites that were not used during the model development phase. By comparing the synthetic Sentinel-2 scenes generated by the cGANs with observed Sentinel-2 scenes, we can quantitatively evaluate the accuracy and reliability of the methodologies in an independent manner.</p>
+											<p>Once the cGANs have been created, optimized, and validated, they can be utilized to simulate ecosystem responses under different environmental and hydrometeorological conditions. This capability allows for the assessment of expected ecosystem responses over prescribed landscapes by modifying these conditions accordingly. The outcomes of this project will enhance our understanding of ecosystem dynamics and provide valuable insights for ecosystem management and climate change adaptation strategies.</p>
 
-                    <!-- Expanded Project Description Content Goes Here -->
-                    <p>Forecasting ecosystem response to climate extremes is crucial for understanding and mitigating the impacts of climate change. This project aims to develop data-driven, spatially explicit ecosystem response models using remote sensing data and cGANs.</p>
-                </div>
-            </div>
-        </section>
+											<h2>Project outcomes</h2>
+											<div class="table-wrapper">
+												<table>
+													<tbody>
+														<tr>
+															<td>MSc thesis Jeroen Smets<br/>
+															<em>"An analysis of landscape predictions from a convolutional LSTM trained on the EarthNet2021 dataset"</em><br/>
+															MSc in AI @ KULeuven, Jun 2023
+															</td>
+															<td><a href="../pubs/2023_MScThesis_JeroenSmets.pdf" target="_blank" class="icon fa-paperclip"></a><br/>
+															<a href="https://github.com/JeroenSmets/An-analysis-of-landscape-predicitions-from-a-convolutional-LSTM-trained-on-the-EarthNet2021-dataset" target="_blank" class="icon fa-github"></a>
+															</td>
+															<td></td>
+														</tr>
+														<tr>
+															<td>MSc thesis Adriaan Keurhorst<br/>
+															<em>"cGANs for multispectral snow analysis in the Alps"</em><br/>
+															MSc in Geoscience & Remote Sensing @ TUDelft, May 2023
+															</td>
+															<td><a href="https://repository.tudelft.nl/islandora/object/uuid%3A4edd5280-a921-4c8a-bb57-6d855543e4a2" target="_blank" class="icon fa-paperclip"></a><br/>
+															<a href="https://github.com/adriaanzico/cGAN-for-snow" target="_blank" class="icon fa-github"></a>
+															</td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											
+												<!-- <p> The selected PhD candidate will focus on using multi-source remote sensing in combination with snow models to establish links between local, regional, and large-scale processes to determine the origin of the variability of the surface mass balance. He/she will also participate in Mass2Ant field campaigns to the Belgian <a href="http://www.antarcticstation.org/" target='_blank'> Princess Elisabeth station</a> in east Antarctica to collect in-situ data on spatio-temporal variations in SMB. </p>
+											<h2 class="major">Requierements</h2>
+											<ul>
+												<li>an MSc degree in remote sensing, meteorology, Earth system science, or a related field</li>
+												<li>ability to participate in (two) Antarctic field campaigns</li>
+												<li>excellent communication skills demonstrated through a well-written article or thesis, a public presentation or personal blog</li>
+												<li>written and spoken proficiency in the English language</li>
+												<li>experience with data analysis, programming and/or numerical modelling</li>
+											</ul>
+											<h2 class="major">Application</h2>
+											 <p>Your application should include (a) a CV, (b) a motivation letter, including possible start date and the names and contact information of at least two references (max. 2 pages), and (c) copies of degree manuscripts and course/grade transcripts. Please refer to vacancy number CITG17-18 in your application. Applications will be reviewed in August, and interviews will be held soon thereafter. The appointment will have a start date as soon as possible. Please e-mail your application by 22 August 2017 (Extended deadline) to Stef Lhermitte, Recruitment-CiTG@tudelft.nl.</p>
+											 
+											<a href="https://vacature.beta.tudelft.nl/vacaturesite/permalink/598100/?lang=en" target='_blank' class="special">The official vacancy page</a> <a href="http://www.climate.be/php/users/klein/Mass2Ant/project.html" target='_blank' class="special">Mass2Ant page</a>  -->
+										</div>
+									</div>
+								</section>
+					</section>
 
-        <!-- Researchers Section -->
-        <section id="researchers" class="wrapper alt style2">
-            <div class="inner">
-                <h2>Researchers</h2>
-                <div class="flex flex-2">
-                    <!-- Researcher 1 -->
-                    <article>
-                        <div class="image round"><img src="../images/researcher1.jpg" alt="Researcher 1" /></div>
-                        <header>
-                            <h3>Researcher Name 1</h3>
-                        </header>
-                        <p>Specializing in remote sensing and deep learning for ecological forecasting.</p>
-                    </article>
-                    <!-- Researcher 2 -->
-                    <article>
-                        <div class="image round"><img src="../images/researcher2.jpg" alt="Researcher 2" /></div>
-                        <header>
-                            <h3>Researcher Name 2</h3>
-                        </header>
-                        <p>Expert in climate change impact studies and ecosystem response modeling.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-    </section>
-
-    <!-- Footer -->
-    <section id="footer" class='atacama'>
-        <div id="dynamic-footer-loader"></div>
-    </section>
-</div>
-
-<!-- Scripts -->
-<script src="../assets/js/skel.min.js"></script>
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/jquery.scrollex.min.js"></script>
-<script src="../assets/js/util.js"></script>
-<script src="../assets/js/main.js"></script>
-<script>
-    function toggleProjectDescription() {
-        var content = document.getElementById("projectDescriptionContent");
-        if (content.style.display === "none") {
-            content.style.display = "block";
-        } else {
-            content.style.display = "none";
-        }
-    }
-</script>
-
-</body>
-</html>
+				<!-- Footer -->
+					<section id="footer" class='atacama'>
+						<!-- Dynamic Footer Content Loader -->
+						<div id="dynamic-footer-loader"></div>
+					</section>
+				</div>
+	
+			<!-- Scripts -->
+				<script src="../assets/js/skel.min.js"></script>
+				<script src="../assets/js/jquery.min.js"></script>
+				<script src="../assets/js/jquery.scrollex.min.js"></script>
+				<script src="../assets/js/util.js"></script>
+				<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+				<script src="../assets/js/main.js"></script>
+				<!-- Google Analytics -->
+				<script>
+				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+				  ga('create', 'UA-96167454-1', 'auto');
+				  ga('send', 'pageview');
+	
+				</script>
+				<script>
+					document.addEventListener("DOMContentLoaded", function(event) {
+						var menuToggle = document.getElementById('menu-toggle');
+						var menuWrapper = document.getElementById('menu');
+						var dynamicMenuLoader = document.getElementById('dynamic-menu-loader');
+						var dynamicFooterLoader = document.getElementById('dynamic-footer-loader');
+	
+	
+						menuToggle.addEventListener('click', function() {
+							menuWrapper.classList.toggle('is-visible');
+						});
+	
+						// Fetch the menu content from a separate file (menu.html in this example)
+						fetch('../menu.html')
+							.then(response => response.text())
+							.then(data => {
+								dynamicMenuLoader.innerHTML = data;
+							})
+							.catch(error => console.log(error));
+	
+						// Fetch the footer content from a separate file (footer.html in this example)
+						fetch('../footer.html')
+							.then(response => response.text())
+							.then(data => {
+								dynamicFooterLoader.innerHTML = data;
+							})
+							.catch(error => console.log(error));
+					});
+				</script>
+	
+	
+		</body>
+	</html>
