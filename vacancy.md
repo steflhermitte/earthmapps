@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Vacancies"
-background_image: "images/bg_amery.jpg"
+background_image: "images/bg_Amery.jpg"
 permalink: "/vacancy.html"
 ---
 
