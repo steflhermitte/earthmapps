@@ -1645,7 +1645,7 @@
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Amery.jpg");
+		/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Amery.jpg"); */
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -3118,8 +3118,12 @@
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
-	}
+			background-image: var(--banner-image);
+			background-size: auto, cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			padding: 5em 0 4.75em 0;
+		}
 
 		#banner .inner {
 			margin: 0 auto;
@@ -3204,60 +3208,10 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Amery.jpg");
+				padding: 7em 0 8.25em 0;
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
-			}
-			
-			#banner.clouds{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GrISClouds.jpg");
-			}
-			
-			#banner.gics{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GICs.jpg");
-			}
-			
-			#banner.mass2ant{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_EA_shelves.jpg");
-			}
-
-			#banner.delta{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_delta.jpg");
-			}
-
-			#banner.ocean{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_ocean.jpg");
-			}
-
-			#banner.wad{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_wad.jpg");
-			}
-
-			#banner.deepv{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Netherlands.jpg");
-			}
-
-			#banner.deepv2{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_deepV.jpg");
-			}
-			
-			#banner.harvey{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Harvey.jpg");
-			}
-			
-			#banner.larsen{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Larsen.jpg");
-			}
-			
-			#banner.atacama{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Atacama.jpg");
-			}
-			
-			#banner.lakes{
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GrISLakes.jpg");
 			}
 
 		}
@@ -3797,61 +3751,13 @@
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg_Amery.jpg");
+			background-image: var(--banner-image);
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
-		
-		#footer.clouds{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GrISClouds.jpg");
-		}
-		
-		#footer.gics{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GICs.jpg");
-		}
-		
-		#footer.mass2ant{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_EA_shelves.jpg");
-		}
 
-		#footer.delta{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_delta.jpg");
-		}
-
-		#footer.ocean{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_ocean.jpg");
-		}
-
-		#footer.wad{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_wad.jpg");
-		}
-
-		#footer.deepv{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Netherlands.jpg");
-		}
-
-		#footer.deepv2{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_deepV.jpg");
-		}
-		
-		#footer.harvey{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Harvey.jpg");
-		}
-		
-		#footer.larsen{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Larsen.jpg");
-		}
-		
-		#footer.atacama{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_Atacama.jpg");
-		}
-		
-		#footer.lakes{
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.2)), url("../../images/bg_GrISLakes.jpg");
-		}
-		
 	}
 
 	@media screen and (max-width: 980px) {
@@ -3926,3 +3832,32 @@
 		}
 
 	}
+
+/* Reusable research spotlight blocks */
+.research-block-image {
+  position: relative;
+}
+
+.research-block-image img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.research-block-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 736px) {
+  .research-block-icon {
+    font-size: 3rem;
+  }
+}
+
+

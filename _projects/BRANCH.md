@@ -4,7 +4,6 @@ title: "BRANCH"
 banner_title: "BRANCH"
 subtitle: "Beyond NDVI: Remote Sensing, AI, and Citizen Science for Urban Green Space and Health Research"
 banner_icon: fa-building-o
-theme_class: "gics"
 permalink: "/projects/BRANCH.html"
 sort_order: 10
 featured: true
@@ -20,7 +19,7 @@ summary: >-
 actions:
   - label: Learn more
     url: https://research.kuleuven.be/portal/en/project/3E260243
-duration: "15 December 2025 - 30 April 2030"
+duration: "2025 - 2030"
 institution: KU Leuven
 institution_url: https://research.kuleuven.be/portal/en/project/3E260243
 ---

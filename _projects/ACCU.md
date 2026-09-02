@@ -4,7 +4,6 @@ title: "ACCU"
 banner_title: "ACCU"
 subtitle: "Antarctic Climate Causality"
 banner_icon: fa-globe
-theme_class: "larsen"
 sort_order: 6
 featured: true
 background_image: "images/proj_accu_1500px.jpg"

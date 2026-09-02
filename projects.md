@@ -3,8 +3,7 @@ layout: page
 title: "Projects"
 banner_icon: fa-flag
 subtitle: A small overview of running projects
-background_image: "images/bg_wad.jpg"
-theme_class: "wad"
+background_image: images/bg_wad.jpg
 permalink: "/projects.html"
 ---
 

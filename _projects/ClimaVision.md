@@ -4,7 +4,6 @@ title: "ClimaVision"
 banner_title: Climavision
 subtitle: Remote Sensing-Driven Downscaling Solutions for Antarctica
 banner_icon: fa-globe
-theme_class: "larsen"
 permalink: "/projects/ClimaVision.html"
 sort_order: 5
 featured: true

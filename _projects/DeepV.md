@@ -4,7 +4,6 @@ title: "DeepVeeg"
 banner_title: DeepVeeg
 subtitle: Deepfaking ecosystem response to climate extremes
 banner_icon: fa-tree
-theme_class: "deepv2"
 permalink: "/projects/DeepV.html"
 background_image: "images/proj_deepV_1500px.jpg"
 image: /images/proj_deepV_1500px.jpg

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Vacancies"
-background_image: "images/bg_ocean.jpg"
-theme_class: "ocean"
+background_image: "images/bg_amery.jpg"
 permalink: "/vacancy.html"
 ---
 

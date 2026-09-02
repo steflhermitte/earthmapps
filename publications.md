@@ -3,7 +3,6 @@ layout: publications
 title: Publications
 banner_icon: fa-paperclip
 background_image: images/bg_GrISClouds.jpg
-theme_class: clouds
 permalink: /publications.html
 ---
 

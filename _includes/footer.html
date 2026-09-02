@@ -1,4 +1,4 @@
-<section id="footer"{% if page.theme_class %} class="{{ page.theme_class }}"{% endif %}>
+<section id="footer"{% if page.theme_class %} class="{{ page.theme_class }}"{% endif %} {% if page.background_image %} style="--footer-image:url('{{ page.background_image }}')" {% endif %}>
   <div class="inner">
     <ul class="actions">
       <li><a href="{{ '/contact.html' | relative_url }}" class="icon fa-address-book fa-2x"></a></li>

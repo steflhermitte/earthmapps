@@ -4,7 +4,6 @@ title: "MicroSCOPE"
 banner_title: "MicroSCOPE"
 subtitle: "Microclimate Simulation and Carbon Outcomes using Probabilistic Emulation"
 banner_icon: fa-leaf
-theme_class: "gics"
 permalink: "/projects/MicroSCOPE.html"
 sort_order: 6
 featured: true

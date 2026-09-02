@@ -1,0 +1,34 @@
+{% comment %}
+Reusable research spotlight block.
+
+Required:
+  title   Section heading
+  image   Image path
+  content Captured Markdown content
+
+Optional:
+  style   HTML5 UP style class, e.g. style2
+  alt     true to reverse the layout
+  icon    Material Icons name, e.g. satellite_alt
+  image_alt Accessible image description
+{% endcomment %}
+
+<section class="wrapper spotlight {{ include.style | default: 'style2' }}{% if include.alt == true or include.alt == 'true' %} alt{% endif %}">
+  <div class="inner">
+    <div class="image research-block-image">
+      <img
+        src="{{ include.image | relative_url }}"
+        alt="{{ include.image_alt | default: include.title | escape }}"
+        loading="lazy"
+      >
+      {% if include.icon %}
+        <span class="material-icons research-block-icon" aria-hidden="true">{{ include.icon }}</span>
+      {% endif %}
+    </div>
+
+    <div class="content">
+      <h2 class="major">{{ include.title }}</h2>
+      {{ include.content | markdownify }}
+    </div>
+  </div>
+</section>

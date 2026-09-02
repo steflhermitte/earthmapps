@@ -4,7 +4,6 @@ title: "AI for Reforestation Monitoring"
 banner_title: "AI for Reforestation Monitoring"
 subtitle: "AI-based remote sensing for monitoring reforestation success in semi-arid regions"
 banner_icon: fa-tree
-theme_class: "deepv2"
 permalink: "/projects/ReforestationAI.html"
 sort_order: 2
 featured: true

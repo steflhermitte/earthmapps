@@ -4,7 +4,6 @@ title: "TwinDryLands"
 banner_title: "TwinDryLands"
 subtitle: "A digital twin for assessing dryland ecosystem functioning with machine learning"
 banner_icon: fa-globe
-theme_class: "wad"
 permalink: "/projects/TwinDryLands.html"
 sort_order: 1
 featured: true

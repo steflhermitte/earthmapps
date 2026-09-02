@@ -1,27 +1,28 @@
 ---
 layout: home
 title: EarthMapps.io
-subtitle: Earth Observation, Environmental Modelling & GeoAI
+subtitle: Digital twins of the Earth
 image: /images/Profile_StefLhermitte.jpg
 image_alt: Stef Lhermitte
+background_image: "images/bg_ocean.jpg"
 actions:
   - label: Meet the people
     url: /people.html
     icon: fa-user-circle-o
-  - label: Publications
-    url: /publications.html
-    icon: fa-paperclip
-#   - label: Highlights
-#     url: /stories.html
-#     icon: fa-paper-plane
+  - label: Research
+    url: /research.html
+    icon: fa-map
   - label: Projects
     url: /projects.html
     icon: fa-flag
+  - label: Publications
+    url: /publications.html
+    icon: fa-paperclip
   - label: Vacancies
     url: /vacancy.html
     icon: fa-graduation-cap
 ---
-## Connecting Observations, Models and AI
+## Connecting Earth observation, Models and AI
 {: .major}
 
 EarthMapps is a research group led by Stef Lhermitte at the [Department of Earth & Environmental Science](https://ees.kuleuven.be/en) of KU Leuven. We study how ecosystems, landscapes and the cryosphere respond to climate variability, environmental change and natural disturbances.

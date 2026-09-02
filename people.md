@@ -4,18 +4,15 @@ title: People
 subtitle: Research team overview
 banner_icon: fa-user-circle-o
 background_image: images/bg_GICs.jpg
-theme_class: gics
+# theme_class: gics
 permalink: /people.html
 
 current_introduction: >-
-  EarthMapps brings together PhDs, postdoctoral researchers and other
-  research staff working across Earth observation, environmental modelling,
-  climate and biophysical models, model emulation, and geospatial AI. Research
-  is carried out within collaborative supervision teams across KU Leuven,
-  TU Delft and partner institutions.
+  The EarthMapps at KU Leuven brings together a talented, enthusiastic team across Earth observation, environmental modelling,
+  climate and biophysical models, model emulation, and geospatial AI. 
 
 former_introduction: >-
-  Former PhD researchers, postdoctoral researchers and collaborators have
+  Besides the current team in Leuven, external and former PhDs (e.g. at TUDelft), postdocs  and collaborators have
   contributed to the development of EarthMapps. Many remain connected to the
   team through ongoing research and collaboration.
 
@@ -100,9 +97,47 @@ current_people:
       - url: https://research.kuleuven.be/portal/en/project/3E230789
         type: fa-university
         label: KU Leuven project page
-
+  - name: Jingyi Wang
+    role:  Visiting PhD
+    topic: Monitoring and modeling ecosystem dynamics using remote sensing and spatial analysis
+    links:
+      - url: https://scholar.google.com/citations?user=PypUuJUAAAAJ&hl=nl
+        type: fa-google-plus-official
+        label: Google Scholar
+  - name: Zhiwen Yang
+    role:  Visiting PhD
+    topic: Antarctic ice-shelf basal melting through satellite altimetry, geodesy, and multi-source remote sensing
+  - name: Jiahui Xu
+    role:  Visiting PhD
+    topic: Understanding and predicting snow cover dynamics in a warming climate through remote sensing and deep learning
+    links:
+      - url: https://scholar.google.be/citations?user=_Vp3yGkAAAAJ&hl=en&oi=sra
+        type: fa-google-plus-official
+        label: Google Scholar
+    
 
 former_people:
+  - name: Enrique Apolo Apolo
+    role: Former PostDoc
+    topic: "Deepfaking ecosystem response to climate extremes"
+    period: 2023-2025
+    university: EarthMapps @ KU Leuven
+    links:
+      - url: https://orcid.org/0000-0001-8311-0579
+        type: fa-globe
+        label: Orcid 
+      - url: https://es.linkedin.com/in/enrique-apolo-apolo-phd-148b07b4 
+        type: fa-linkedin-square
+        label: LinkedIn profile
+  - name: Nora Gourmelon
+    role: Former Visiting PhD
+    topic: "Glacier Calving Front Delineation in SAR Imagery Using Deep Learning"
+    period: 2026
+    university: EarthMapps @ KU Leuven
+    links:
+      - url: https://www.linkedin.com/in/nora-gourmelon/ 
+        type: fa-linkedin-square
+        label: LinkedIn profile
   - name: Shashwat Shukla
     role: Ongoing PhD at TUDelft
     topic: Remote sensing of firn conditions on ice shelves
@@ -110,6 +145,15 @@ former_people:
     university: TU Delft
     links:
       - url: https://www.linkedin.com/in/hello-shashwat/
+        type: fa-linkedin-square
+        label: LinkedIn profile
+  - name: Danille Bintaje
+    role: Ongoing PhD at TUDelft
+    topic: Firn Capacity of Antarctic Ice Shelves via Satellites Observation
+    period: 2025-present
+    university: TU Delft
+    links:
+      - url: https://www.linkedin.com/in/dani%C3%ABlle-bintanja-773306358/
         type: fa-linkedin-square
         label: LinkedIn profile
   - name: Ann-Sofie Priergaard Zinck

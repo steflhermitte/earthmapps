@@ -4,7 +4,6 @@ title: "MOAT"
 banner_title: "MOAT"
 subtitle: "Melting ice shelves Of AnTarctica"
 banner_icon: fa-snowflake-o
-theme_class: "larsen"
 permalink: "/projects/MOAT.html"
 sort_order: 4
 featured: true

@@ -4,7 +4,6 @@ title: "ECOGraph"
 banner_title: "ECOGraph"
 subtitle: "A graph-based approach for Species Distribution Models"
 banner_icon: fa-pagelines
-theme_class: "gics"
 permalink: "/projects/ECOGraph.html"
 sort_order: 9
 featured: true

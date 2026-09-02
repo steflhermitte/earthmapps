@@ -4,7 +4,6 @@ title: "IceGraph"
 banner_title: "IceGraph"
 subtitle: "Emulating damage in ice sheet models using graph networks"
 banner_icon: fa-snowflake-o
-theme_class: "clouds"
 permalink: "/projects/IceGraph.html"
 sort_order: 3
 featured: true
