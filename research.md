@@ -25,7 +25,6 @@ Our research covers environments ranging from drylands and forests to glaciers, 
   title="Understanding environmental change"
   image="/images/bg_seaice_1500px.jpg"
   image_alt="Environmental change across a climate-sensitive landscape"
-  icon="public"
   style="style2"
   content=environmental_change
 %}
@@ -40,7 +39,6 @@ We combine optical, thermal, radar and microwave observations with drone imagery
   title="Earth observation"
   image="/images/bg_satellite.jpg"
   image_alt="Satellite observations of the Earth surface"
-  icon="satellite_alt"
   style="style3"
   alt=true
   content=earth_observation
@@ -56,7 +54,6 @@ We connect Earth observation with climate, environmental and biophysical models.
   title="Connecting observations and models"
   image="images/bg_satvsmodel.jpg"
   image_alt="Environmental observations connected with model simulations"
-  icon="hub"
   style="style4"
   content=observations_models
 %}
@@ -71,7 +68,6 @@ We also explore Digital Twin approaches that bring observations, models and AI t
   title="Geospatial AI and Digital Twins"
   image="/images/bg_digitalearth.jpg"
   image_alt="Geospatial data and artificial intelligence"
-  icon="memory"
   style="style5"
   alt=true
   content=geoai
