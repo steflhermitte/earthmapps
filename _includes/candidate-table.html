@@ -1,0 +1,38 @@
+<section class="wrapper {{ include.style }}">
+  <div class="inner">
+    <div class="content">
+      <h2 class="major">{{ include.title }}</h2>
+      {% if include.introduction %}<p>{{ include.introduction }}</p>{% endif %}
+      <div class="table-wrapper people-table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Role</th>
+              <th>Topic</th>
+              {% unless include.compact %}
+              <th>Period</th>
+              <th>University</th>
+              {% endunless %}
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for candidate in include.candidates %}
+            <tr>
+              <td>{{ candidate.name }}</td>
+              <td>{{ candidate.role | default: '-' }}</td>
+              <td>{{ candidate.topic }}</td>
+              {% unless include.compact %}
+              <td>{{ candidate.period | default: '-' }}</td>
+              <td>{{ candidate.university | default: '-' }}</td>
+              {% endunless %}
+              <td>{% if candidate.links %}<span class="candidate-links">{% for link in candidate.links %}<a href="{{ link.url }}" class="icon {{ link.type }}" title="{{ link.label }}"><span class="label">{{ link.label }}</span></a>{% endfor %}</span>{% elsif candidate.url %}<a href="{{ candidate.url }}" class="icon {{ candidate.link_type }}" title="{{ candidate.link_label }}"><span class="label">{{ candidate.link_label }}</span></a>{% else %}-{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

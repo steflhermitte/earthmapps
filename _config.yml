@@ -1,0 +1,26 @@
+title: EarthMapps.io
+description: Earth Observation, Environmental Modelling & GeoAI
+url: "https://www.earthmapps.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  stories:
+    output: true
+    permalink: /stories/:name/
+  vacancies:
+    output: true
+    permalink: /vacancies/:name/
+
+sass:
+  sass_dir: assets/sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

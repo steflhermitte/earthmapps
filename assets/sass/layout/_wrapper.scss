@@ -15,6 +15,21 @@
 	}
 
 	#wrapper {
+		.wrapper > .inner {
+			@include vendor('transition', (
+				'opacity 0.45s ease',
+				'transform 0.45s ease',
+			));
+			@include vendor('transform', 'translateY(0)');
+			@include vendor('transition-delay', '0.4s');
+			opacity: 1;
+
+			body.is-loading & {
+				@include vendor('transform', 'translateY(1em)');
+				opacity: 0;
+			}
+		}
+
 		> header {
 			@include padding(7.5em, 0, (3.5em, 0, _size(wrapper-edges, large) * -0.5, 0));
 
@@ -197,6 +212,11 @@
 					background-color: $color;
 					@include wrapper-edges-color($color);
 				}
+			}
+
+			&.style2 {
+				background-color: #45558d;
+				@include wrapper-edges-color(#45558d);
 			}
 		}
 

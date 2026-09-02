@@ -1,0 +1,5 @@
+<ul class="actions">
+  {% for action in include.actions %}
+  <li><a href="{{ action.url | relative_url }}" class="special icon {{ action.icon }}">{{ action.label }}</a></li>
+  {% endfor %}
+</ul>

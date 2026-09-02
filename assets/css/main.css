@@ -1662,6 +1662,55 @@
 			transition: none !important;
 		}
 
+	#wrapper .wrapper > .inner,
+	#footer .inner {
+		-moz-transition: opacity 0.45s ease, -moz-transform 0.45s ease;
+		-webkit-transition: opacity 0.45s ease, -webkit-transform 0.45s ease;
+		-ms-transition: opacity 0.45s ease, -ms-transform 0.45s ease;
+		transition: opacity 0.45s ease, transform 0.45s ease;
+		-moz-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	#wrapper .wrapper > .inner {
+		-moz-transition-delay: 0.4s;
+		-webkit-transition-delay: 0.4s;
+		-ms-transition-delay: 0.4s;
+		transition-delay: 0.4s;
+	}
+
+	#footer .inner {
+		-moz-transition-delay: 0.55s;
+		-webkit-transition-delay: 0.55s;
+		-ms-transition-delay: 0.55s;
+		transition-delay: 0.55s;
+	}
+
+	body.is-loading #wrapper .wrapper > .inner,
+	body.is-loading #footer .inner {
+		-moz-transform: translateY(1em);
+		-webkit-transform: translateY(1em);
+		-ms-transform: translateY(1em);
+		transform: translateY(1em);
+		opacity: 0;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		*, *:before, *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
+	}
+
 /* Type */
 
 	body, input, select, textarea {
@@ -1755,7 +1804,6 @@
 				transition: background-color 0.2s ease-in-out;
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
-				content: '\f105';
 				display: inline-block;
 				font-size: 1.25em;
 				height: 2em;
@@ -1765,6 +1813,14 @@
 				text-indent: 0.15em;
 				vertical-align: middle;
 				width: 2em;
+			}
+
+			a.special:not(.button):not(.icon):before {
+				content: '\f105';
+			}
+
+			a.special:not(.button).icon:before {
+				text-indent: 0;
 			}
 
 			a.special:not(.button):hover:before {
@@ -2457,6 +2513,16 @@
 		overflow-x: auto;
 	}
 
+	.people-table-wrapper .candidate-links {
+		display: -webkit-inline-flex;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		gap: 0.75em;
+	}
+
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
@@ -3061,10 +3127,10 @@
 		}
 
 		#banner .logo {
-			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 2s ease, -ms-transform 1s ease;
-			transition: opacity 2s ease, transform 1s ease;
+			-moz-transition: opacity 0.6s ease, -moz-transform 0.45s ease;
+			-webkit-transition: opacity 0.6s ease, -webkit-transform 0.45s ease;
+			-ms-transition: opacity 0.6s ease, -ms-transform 0.45s ease;
+			transition: opacity 0.6s ease, transform 0.45s ease;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3086,18 +3152,18 @@
 			}
 
 		#banner h2 {
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
-			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
-			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease, -moz-filter 0.2s ease;
+			-webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease, -webkit-filter 0.2s ease;
+			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease, -ms-filter 0.2s ease;
+			transition: opacity 0.35s ease, transform 0.35s ease, filter 0.2s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			-moz-transition-delay: 0.25s;
-			-webkit-transition-delay: 0.25s;
-			-ms-transition-delay: 0.25s;
-			transition-delay: 0.25s;
+			-moz-transition-delay: 0.15s;
+			-webkit-transition-delay: 0.15s;
+			-ms-transition-delay: 0.15s;
+			transition-delay: 0.15s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
@@ -3110,18 +3176,18 @@
 		}
 
 		#banner p {
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
-			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
-			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease, -moz-filter 0.2s ease;
+			-webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease, -webkit-filter 0.2s ease;
+			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease, -ms-filter 0.2s ease;
+			transition: opacity 0.35s ease, transform 0.35s ease, filter 0.2s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			-moz-transition-delay: 0.4s;
-			-webkit-transition-delay: 0.4s;
-			-ms-transition-delay: 0.4s;
-			transition-delay: 0.4s;
+			-moz-transition-delay: 0.25s;
+			-webkit-transition-delay: 0.25s;
+			-ms-transition-delay: 0.25s;
+			transition-delay: 0.25s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
@@ -3523,12 +3589,12 @@
 			.wrapper.spotlight.style2 {
 /*				background-color: #45558d;*/
 /*				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url('../../images/StefLhermitte_Pasfoto_b.jpg');*/
-				background-color: rgba(69,85,141,.5);
+				background-color: #45558d;
 				
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B;fill-opacity:0.5'  /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
 				}
 				
 				/*.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {

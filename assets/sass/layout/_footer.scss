@@ -12,7 +12,14 @@
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
 			@include vendor('flex-wrap', 'wrap');
+			@include vendor('transition', (
+				'opacity 0.45s ease',
+				'transform 0.45s ease',
+			));
+			@include vendor('transform', 'translateY(0)');
+			@include vendor('transition-delay', '0.55s');
 			margin: 0 auto;
+			opacity: 1;
 			width: _size(inner);
 
 			> * {
@@ -56,6 +63,11 @@
 					}
 				}
 			}
+		}
+
+		body.is-loading & .inner {
+			@include vendor('transform', 'translateY(1em)');
+			opacity: 0;
 		}
 
 		@include breakpoint(large) {

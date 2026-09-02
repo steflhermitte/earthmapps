@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section id="banner"{% if page.theme_class %} class="{{ page.theme_class }}"{% endif %}>
+  <div class="inner">
+    <div class="logo"><span class="icon {{ page.banner_icon | default: 'fa-user-circle-o' }}"></span></div>
+    <h2>{{ page.title }}</h2>
+    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+  </div>
+</section>
+<section id="wrapper">
+  {% include candidate-table.html title="Current people" introduction=page.current_introduction candidates=page.current_people style="spotlight style2 alt" compact=true %}
+  {% include candidate-table.html title="Former people" introduction=page.former_introduction candidates=page.former_people style="spotlight style3" %}
+</section>

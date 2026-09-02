@@ -60,7 +60,6 @@
 				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
 				border-radius: 100%;
 				border: solid 2px _palette(border);
-				content: '\f105';
 				display: inline-block;
 				font-size: 1.25em;
 				height: 2em;
@@ -70,6 +69,14 @@
 				text-indent: 0.15em;
 				vertical-align: middle;
 				width: 2em;
+			}
+
+			&:not(.icon):before {
+				content: '\f105';
+			}
+
+			&.icon:before {
+				text-indent: 0;
 			}
 
 			&:hover {

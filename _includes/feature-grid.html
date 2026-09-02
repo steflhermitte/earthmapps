@@ -1,0 +1,14 @@
+<section class="features">
+  {% for item in include.items %}
+  <article>
+    <a href="{{ item.url | relative_url }}" class="image"{% if item.external %} target="_blank"{% endif %}><img src="{{ item.image | relative_url }}" alt="{{ item.title }}" /></a>
+    <h3 class="major">{{ item.card_title | default: item.title }}</h3>
+    <p>{{ item.summary }}</p>
+    <ul class="actions">
+      {% for action in item.actions %}
+      <li><a href="{{ action.url | default: item.url | relative_url }}" class="special"{% if action.external %} target="_blank"{% endif %}>{{ action.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </article>
+  {% endfor %}
+</section>

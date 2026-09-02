@@ -1,0 +1,90 @@
+---
+layout: default
+title: "Research"
+background_image: "images/bg_Larsen.jpg"
+theme_class: "larsen"
+permalink: "/research.html"
+---
+
+<!-- Banner -->
+<section id="banner" class='larsen'>
+<div class="inner">
+<div class="logo"><span class="icon fa-map"></span></div>
+<h2>Research</h2>
+<p>Topics, tools & projects</p>
+</div>
+</section>
+
+<!-- Wrapper -->
+<section id="wrapper">
+
+<!-- TOPICS -->
+<section id="one" class="wrapper spotlight style1">
+<!-- <section id="two" class="wrapper alt spotlight style2"> -->
+<div class="inner">
+<a href="#" class="image"><img src="images/pic_GICs.jpg" alt="" /><i class="material-icons" >satellite</i></a>
+<div class="content">
+<h2 class="major">Research topics</h2>
+<p>Understanding land-atmosphere interactions is crucial if we want to assess and model the effect of climate (change) on ecosystem dynamics, the hydrological cycle, sea level rise, etc. and quantify their feedbacks on climate. Satellite remote sensing plays an important role in understanding these land-atmosphere interactions. Firstly, because it allows to quantify spatio-temporal variations in land-surface processes (e.g. changes in snow/ice properties, vegetation dynamics) and link them to climate (anomalies); especially at extensive scales or in locations where in-situ data is sparse. Secondly, because satellite remote sensing provides an essential tool to evaluate and improve land-atmosphere models, which often still have large uncertainties related to land-surface processes and land-atmosphere feedbacks.</p>
+<p>EarthMapps focuses on the opportunities at the intersection of remote sensing and land-surface models. More specifically it concentrates on the use of multi-source remote sensing to improve our understanding of atmosphere-snow/ice and atmosphere-vegetation interactions in order to improve their representation in land-atmosphere models. This is particularly important as the uncertainties in these interactions have a large effect on our projections of future climate, hydrological cycle, sea level rise, vegetation dynamics. For example, the current understanding of the future state of the Greenland Ice Sheet (GrIS) and Antarctica and their contribution to sea level rise is still partly hampered by the understanding of the (sub-)surface processes and their representation in land-atmosphere models; or the projection of future vegetation dynamics and their climate feedbacks is still strongly determined by the limited understanding of vegetation response to climate anomalies.</p>
+</div>
+</div>
+</section>
+
+<!-- TOOLS -->
+<section id="two" class="wrapper alt spotlight style2">
+<!-- <section id="two" class="wrapper spotlight style3"> -->
+<div class="inner">
+<a href="#" class="image"><img src="images/pic_tools.png" alt=""/ ><i class="material-icons">tune</i></a>
+<div class="content">
+<h2 class="major">Research tools</h2>
+<p>Technologically we work on the interface between multi-source satellite imagery, radiative transfer models, land-surface models (e.g. snowmodels) and climate models. Within this framework we aim at developing and integrating innovative methodologies to assess the Earth's surface properties, mainly snow/ice and vegetation related, and understand their complex spatio-temporal response to climate. These methodologies range from improved data processing and data assimilation/merging, to big data solutions and time series analysis (e.g. tipping points). A lot of this work is done in close collaboration with our colleagues of <a href='http://www.citg.tudelft.nl/en/about-faculty/departments/geoscience-remote-sensing/' target="_blank"> the Department of Geoscience & Remote Sensing </a>.</p>
+<p>We exploit a broad collection of remote data sets that often bridge the gap between land remote sensing and atmospheric remote sensing. For example, in the past we have worked with multi-spectral optical satellite imagery (e.g. MODIS, Sentinel-2, Landsat, Proba-V, etc.), SAR backscatter data (e.g., Sentinel-1), microwave radiometer data (e.g. AMSR-E), scatterometer backscatter data (e.g. Quikscat, Ascat) atmospheric remote sensing data (e.g. Cloudsat, Calipso, Ceres) etc. </p>
+<p>The remote sensing data are used in combination with a range of models. These range from radiative transfer models (e.g., Tartes or SNICAR for snow albedo) in order to translate surface/atmosphere process to satellite observations, to snow models that model snow, firn, ice processes (e.g., Snowpack, Snowmodel,...). Alternatively, we combine the remote sensing data with climate model output provided by international collaborators (e.g., regional climate models <a href='https://www.projects.science.uu.nl/iceclimate/models/' target='_blank'>RACMO</a> or <a href='http://ees.kuleuven.be/geography/rcs/' target='_blank'>COSMO</a>, or earth system models as <a href='http://www.colorado.edu/lab/icesheetclimate/' target='_blank'> CESM </a> ) to help to evaluate/improve the representation of land surface processes.</p>
+<!-- <p><span class="image left small"><img src="images/pic_tools3.png" alt=""/ ><i class="material-icons">tune</i></span>Technologically we work on the interface between multi-source satellite imagery, radiative transfer models, land-surface models (e.g. snowmodels) and climate models. Within this framework we aim at developing and integrating innovative methodologies to assess the Earth's surface properties, mainly snow/ice and vegetation related, and understand their complex spatio-temporal response to climate. These methodologies range from improved data processing and data assimilation/merging, to big data solutions and time series analysis (e.g. tipping points). </p>
+<br/><br/><p>We exploit a broad collection of remote data sets that often bridge the gap between land remote sensing and atmospheric remote sensing. For example, in the past we have worked with multi-spectral optical satellite imagery (e.g. MODIS, Sentinel-2, Landsat, Proba-V, etc.), SAR backscatter data (e.g., Sentinel-1), microwave radiometer data (e.g. AMSR-E), scatterometer backscatter data (e.g. Quikscat, Ascat) atmospheric remote sensing data (e.g. Cloudsat, Calipso, Ceres) etc. to improve our understanding the interaction between atmosphere and land surface processes.</p> -->
+</div>
+</div>
+</section>
+
+<!-- PROJECTs -->
+<!-- <section id="three" class="wrapper style1">
+<div class="inner">
+<h2 class="major">Current projects</h2>
+<section class="features">
+<article>
+<img class="image" src="images/pic_Mass2Ant.jpg" alt="" />
+<h3 class="major">Mass balance of East Antarctica</h3>
+<p>The Antarctic climate system is very complex with strong interactions between the ice sheet, atmosphere, ocean and sea ice. Within this complex system small scale variations often have large scale consequences, while regional processes are partly controlled by large scale dynamics. Therefore it is crucial to link the dynamics that affect Antarctica at different spatial and temporal scales in order to make progress in our understanding, and increase the confidence in the future projections for Antarctica.<br/>Within the Mass2Ant project (i.e. collaboration between <a href="http://www.elic.ucl.ac.be/modx/index.php?id=78" taget='_blank'>UCL</a>, <a href="https://www.ulb.ac.be/rech/inventaire/chercheurs/1/CH2321.html" taget='_blank'>ULB</a>, <a href="https://www.researchgate.net/profile/S_Vannitsem" taget='_blank'>KMI</a>, <a href="http://www.colorado.edu/lab/icesheetclimate/" taget='_blank'>UC</a>, and TUDelft), we study the surface mass balance (SMB) in the Princess Ragnhild Coast region, East Antarctica, analyzing both changes over the last decades and centuries (Anthropocene) as well as the link between the regional variability and the large-scale atmospheric and ocean circulation.<br/>Firstly, we aim to understand the local processes responsible for SMB variability during the last 300 years. Secondly, we will establish links between local, regional, and large scale processes to determine the origin of the variability of the surface mass balance.</p>
+<ul class="actions">
+<li>
+<a href="http://www.climate.be/php/users/klein/Mass2Ant/" class="special" target='_blank'>Learn more</a>
+</li>
+</ul>
+</article>
+<article>
+<img class="image" src="images/bg_GrISLakes.jpg" alt="" />
+<h3 class="major">Assessing firn processes from multi-source satellite data</h3>
+<p>Subsurface processes in the firn layer, such as refreezing and meltwater retention, are key components for understanding potential tipping points of the Earth’s cryosphere. For example in Greenland, they buffer runoff directly, but the resulting (impermeable) refrozen layers may indirectly accelerate runoff and hence the sensitivity of the future surface mass balance to climate change. In Antarctica, on the other hand, the firn processes are important drivers for the stream and lake development, which are thought to be hazardous to iceshelf stability. Yet, despite the importance of these firn processes, the current understanding of the spatiotemporal variability of firn processes remains limited due to the difficulty to assess them.  This project will combine multi-source satellite observations to fine-tune advanced snowmodels and therefore it will allow to assess the impact of firn processes in a changing climate.</p>
+</article>
+<article>
+<img class="image" src="images/pic_MEP.jpg" alt="" />
+<h3 class="major">Snow mapping on cloud platforms</h3>
+<p>Remote sensing data of snow cover data provides an essential input for hydrological models to model the water contribution from remote mountain areas and to understand how this water resource might alter as a result of climate change. Traditionally, however, these remote sensing products show a trade-off between spatial and temporal resolution (e.g., 16-day Landsat at 30m vs. daily MODIS at 500m resolution). With the advent of PROBA-V product this trade-off partially can be tackled by having data that corresponds more closely to the spatial and temporal variations in snow cover typically observed over complex mountain areas (e.g. the PROBA-V 100m product). However, this requires methods that account for the topographic variability and that take the variations in viewing geometry and incoming radiation into account, as otherwise large errors in the snow mapping are introduced.<br/>
+Within this project we plan to demonstrate and evaluate the potential of the PROBA-V data to accurately monitor snow cover in mountaineous environments. Moreover, by introducing correction algorithms that take into account topographic variability and variations in viewing geometry, we will develop methodologies that allow for more accurate snow mapping. Finally, the <a href='http://proba-v.vgt.vito.be/content/mep' target='_blank'>PROBA-V Mission Exploitation Platform (PV-MEP)</a> will allow applying the developed methods in a cloud computing environment. </p>
+</article>
+<article>
+<a href="https://www.researchgate.net/project/Understanding-Turning-Points-in-Dryland-Ecosystem-Functioning-U-TURN" class="image" target='_blank'><img src="images/pic_UTURN.jpg" alt="" /></a>
+<h3 class="major">Turning points in global drylands</h3>
+<p>The U-TURN project aims at quantifying and understanding turning points in the functioning of dryland ecosystems. Major focus will be put on disentangling climatic and anthropogenic drivers and the assessment of proxies for early warning of turning points in ecosystem functioning. This will be achieved by combining advanced remote sensing techniques with dynamic vegetation models.</p>
+<ul class="actions">
+<li>
+<a href="https://www.researchgate.net/project/Understanding-Turning-Points-in-Dryland-Ecosystem-Functioning-U-TURN" class="special" target='_blank'>Learn more</a>
+</li>
+</ul>
+</article>
+</section> -->
+</div>
+</section>
+
+</section>

@@ -1,0 +1,6 @@
+<header id="header"{% if page.header_alt != false %} class="alt"{% endif %}>
+  <h1><a href="{{ '/' | relative_url }}">{% if page.header_title %}{{ page.header_title }}{% elsif page.title and page.title != site.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</a></h1>
+  <nav>
+    <a href="#menu">Menu</a>
+  </nav>
+</header>

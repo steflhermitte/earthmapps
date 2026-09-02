@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% capture profile_links %}
+<a href="https://orcid.org/0000-0002-1622-0177" class="ai ai-orcid fa-2x"></a>
+<!-- <a href="https://impactstory.org/u/0000-0002-1622-0177" class="ai ai-impactstory fa-2x"></a> -->
+<a href="https://scholar.google.be/citations?user=xMF43YQAAAAJ&hl=nl" class="ai ai-google-scholar fa-2x"></a>
+<a href="https://www.researchgate.net/profile/Stef_Lhermitte" class="ai ai-researchgate fa-2x"></a>
+{% endcapture %}
+<section id="banner"{% if page.theme_class %} class="{{ page.theme_class }}"{% endif %}>
+  <div class="inner">
+    <div class="logo"><span class="icon {{ page.banner_icon | default: 'fa-paperclip' }}"></span></div>
+    <h2>{{ page.banner_title | default: page.title }}</h2>
+    <p>{{ profile_links }}</p>
+  </div>
+</section>
+<section id="wrapper">
+  <section class="wrapper {{ page.wrapper_class | default: 'alt style1' }}">
+    <div class="inner">
+      <div class="table-wrapper publication-table-wrapper">
+        {{ content }}
+      </div>
+    </div>
+  </section>
+</section>

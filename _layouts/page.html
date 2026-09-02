@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section id="banner"{% if page.theme_class %} class="{{ page.theme_class }}"{% endif %}>
+  <div class="inner">
+    <div class="logo"><span class="icon {{ page.banner_icon | default: 'fa-globe' }}"></span></div>
+    <h2>{{ page.banner_title | default: page.title }}</h2>
+    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+  </div>
+</section>
+<section id="wrapper">
+  <section class="wrapper {{ page.wrapper_class | default: 'alt style1' }}"{% if page.wrapper_id %} id="{{ page.wrapper_id }}"{% endif %}>
+    <div class="inner">
+      {{ content }}
+    </div>
+  </section>
+</section>

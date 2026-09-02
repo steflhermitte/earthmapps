@@ -1,0 +1,152 @@
+---
+layout: default
+title: "Stories"
+background_image: "images/bg_Atacama.jpg"
+theme_class: "atacama"
+permalink: "/stories.html"
+---
+
+<!-- Banner -->
+<section id="banner" class='atacama'>
+<div class="inner">
+<div class="logo"><span class="icon fa-paper-plane"></span></div>
+<h2>Highlights & stories</h2>
+<p>An attempt to explain some of our work</p>
+</div>
+</section>
+
+<!-- Wrapper -->
+<section id="wrapper">
+
+<!-- One -->								
+<section id="one" class="wrapper alt style1">
+<div class="inner">
+<h2 class="major">Research highlights</h2>
+<section class="features">
+<!-- <article>
+<a href="./projects/DeepV.html" class="image" target='_blank'><img src="images/stories_deepV.jpeg" alt="" /></a>
+<h3 class="major">Deepfaking ecosystem response to climate extremes</h3>
+<p>Accurately predicting how ecosystems will respond to future climate extremes has been a challenge due to the limitations of current vegetation models and the lack of precise data to constrain them. To overcome these obstacles, the DeepV project proposes the development of data-driven, spatially explicit ecosystem response models using remote sensing data and conditional Generative Adversarial Networks (cGANs). By harnessing the power of cGANs, DeepV aims to generate realistic satellite image time series of ecosystem response based on environmental conditions and hydro-meteorological data, enabling climate-to-ecosystem response rule establishment and ecosystem sensitivity assessment. </p>
+<ul class="actions">
+<li>
+<a href="./projects/DeepV.html" class="special" target='_blank'>Learn more</a>
+</li>
+</ul>
+</article> -->
+<article>
+<a href="https://tudelft.pageflow.io/accumulationponding" class="image" target='_blank'><img src="images/stories_MOA.jpg" alt="" /></a>
+<h3 class="major">Ponding on Antarctic ice shelves</h3>
+<p>By utilizing two present-day and three future high-resolution Antarctic climate simulations, we have identified warming thresholds for melt pond formation based on the melt-over-accumulation ratio. Our findings challenge existing assumptions, revealing that while the −5 °C temperature threshold holds true for relatively wet ice shelves, cold and dry ice shelves such as Amery, Ross, and Filchner-Ronne are more vulnerable than previously thought, with threshold temperatures well below −15 °C. Moreover, our projections using the CMIP6 models suggest that these thresholds could be reached by many ice shelves, including cold ones, towards the end of this century, even under moderate warming scenarios. </p>
+<ul class="actions">
+<li>
+<a href="https://tudelft.pageflow.io/accumulationponding" class="special" target='_blank'>Learn more</a>
+</li>
+<li>
+<a href="https://www.pnas.org/doi/full/10.1073/pnas.1912890117" class="special" target='_blank'>Nature Climate Change paper</a>
+</li>
+</ul>
+</article>
+<article>
+<a href="https://tudelft.pageflow.io/accumulationponding" class="image" target='_blank'><img src="images/stories_meteorites.jpg" alt="" /></a>
+<h3 class="major">Meteorites in Antarctica</h3>
+<p>Meteorites provide a unique view into the origin and evolution of the Solar System. Antarctica is the most productive region for recovering meteorites, where these extraterrestrial rocks concentrate at meteorite stranding zones. To date, meteorite-bearing blue ice areas are mostly identified by serendipity and through costly reconnaissance missions. Here, we identify meteorite-rich areas by combining state-of-the-art datasets in a machine learning algorithm and provide continent-wide estimates of the probability to find meteorites at any given location. The resulting set of ca. 600 meteorite stranding zones, with an estimated accuracy of over 80%, reveals the existence of unexplored zones, some of which are located close to research stations. Our analyses suggest that less than 15% of all meteorites at the surface of the Antarctic ice sheet have been recovered to date.</p>
+<ul class="actions">
+<!-- <li>
+<a href="" class="special" target='_blank'>Learn more</a>
+</li> -->
+<li>
+<a href="https://www.science.org/doi/10.1126/sciadv.abj8138" class="special" target='_blank'>Science advances paper</a>
+</li>
+</ul>
+</article>
+<article>
+<a href="https://www.pnas.org/doi/full/10.1073/pnas.1912890117" class="image" target='_blank'><img src="images/stories_damage.png" alt="" /></a>
+<h3 class="major">Damage in the Amundsen Sea Embayment</h3>
+<p>Pine Island Glacier and Thwaites Glacier in the Amundsen Sea Embayment are among the fastest changing outlet glaciers in Antarctica. Yet, projecting the future of these glaciers remains a major uncertainty for sea level rise. Here we use satellite imagery to show the development of damage areas with crevasses and open fractures on Pine Island and Thwaites ice shelves. These damage areas are first signs of their structural weakening as they precondition these ice shelves for disintegration. Model results that include the damage mechanism highlight the importance of damage for ice shelf stability, grounding line retreat, and future sea level contributions from Antarctica. Moreover, they underline the need for incorporating damage processes in models to improve sea level rise projections.</p>
+<ul class="actions">
+<!-- <li>
+<a href="http://tudelft.pageflow.io/benemelt" class="special" target='_blank'>Learn more</a>
+</li> -->
+<li>
+<a href="https://www.pnas.org/doi/full/10.1073/pnas.1912890117" class="special" target='_blank'>PNAS paper on impact</a>
+</li>
+<li>
+<a href="https://www.sciencedirect.com/science/article/pii/S0034425722004655" class="special" target='_blank'>RSE paper on detection</a>
+</li>
+</ul>
+</article>
+<article>
+<a href="./pubs/2017_Lenaerts_NCC_MeltwaterIceShelf.pdf" class="image" target='_blank'><img src="images/stories_benemelt.jpg" alt="" /></a>
+<h3 class="major">Meltwater lakes in East Antarctic</h3>
+<p>Ice shelves are the gatekeepers of Antarctica: they control how much ice flows off the ice sheet and melts into the ocean. Surface melt and subsequent firn air depletion can ultimately lead to disintegration of Antarctic ice shelves causing grounded glaciers to accelerate and sea level to rise. In this study we provide observational and model evidence that this process also occurs over an East Antarctic ice shelf, where meltwater induced firn air depletion is found in the grounding zone. In East Antarctica this meltwater is the result of a regional micro-climate as a result of wind-albedo interaction.</p>
+<ul class="actions">
+<!-- <li>
+<a href="http://tudelft.pageflow.io/benemelt" class="special" target='_blank'>Learn more</a>
+</li> -->
+<li>
+<a href="./pubs/2017_Lenaerts_NCC_MeltwaterIceShelf.pdf" class="special" target='_blank'>Nature Climate Change paper</a>
+</li>
+</ul>
+</article>
+<article>
+<a href="./stories/201703_GrISClouds.html" class="image"><img src="images/stories_GrISClouds.jpg" alt="" /></a>
+<h3 class="major">Clouds enhance Greenland ice sheet meltwater runoff</h3>
+<p>The Greenland ice sheet has become one of the main contributors to global sea level rise, predominantly through increased meltwater runoff. The main drivers of Greenland ice sheet runoff, however, remain poorly understood. Here we use a unique combination of active satellite observations, climate model data and snow model simulations to asses the role of Greenland cloud on meltwater runoff. Our results show that clouds enhance meltwater runoff by about one-third relative to clear skies. The sensitivity of the Greenland ice sheet to clouds highlights the need for accurate cloud representations in climate models, to better predict future contributions of the Greenland ice sheet to global sea level rise.</p>
+<ul class="actions">
+<li>
+<a href="./stories/201703_GrISClouds.html" class="special" target='_blank'>Learn more</a>
+</li>
+<li>
+<a href="http://www.nature.com/articles/ncomms10266.pdf" class="special" target='_blank'>Nature Communications Paper</a>
+</li>
+</ul>
+
+</article>
+<article>
+<a href="http://dx.doi.org/10.1038/NCOMMS14730" class="image" target='_blank'><img src="images/stories_GICs.jpg" alt="" /></a>
+<h3 class="major">Tipping points for <br/>the Greenland ice caps</h3>
+<p>Melting of the Greenland ice sheet (GrIS) and its peripheral glaciers and ice caps (GICs) contributes about 43% to contemporary sea level rise. While patterns of GrIS mass loss are relatively well studied, the spatial and temporal evolution of GICs mass loss and the acting processes have remained unclear. Here we use a novel, high-resolution (1 km) surface mass balance product, evaluated against in-situ and remote sensing data, to identify 1997 as a tipping point for the mass balance of Greenland’s GICs. That year marks the onset of a rapid deterioration in the capacity of the GICs firn layer to refreeze meltwater.</p>
+<ul class="actions">
+<!-- <li>
+<a href="http://tudelft.pageflow.io/gics" class="special" target='_blank'>Learn more</a>
+</li> -->
+<li>
+<a href="http://dx.doi.org/10.1038/NCOMMS14730" class="special" target='_blank'>Nature Communications paper</a>
+</li>
+</ul>
+</article>
+<!-- <article>
+<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+<h3 class="major">Wind effects on snow cover</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+<a href="#" class="special">Learn more</a>
+</article> -->
+<article>
+<a href="https://earthobservatory.nasa.gov/IOTD/view.php?id=88848" class="image"><img src="images/stories_Victoria.jpg" alt="" /></a>
+<h3 class="major">Hazardeous thunderstorms over Lake Victoria</h3>
+<p>Weather extremes have harmful impacts on communities around Lake Victoria, where thousands of fishermen die every year because of intense night-time thunderstorms. Yet how these thunderstorms will evolve in a future warmer climate is still unknown. Here we show that Lake Victoria is projected to be a hotspot of future extreme precipitation intensification by using new satellite-based observations, a high-resolution climate projection for the African Great Lakes and coarser-scale ensemble projections. Our results highlight a major hazard associated with climate change over East Africa and underline the need for high-resolution projections to assess local climate change</p>
+<ul class="actions">
+<li>
+<a href="https://earthobservatory.nasa.gov/IOTD/view.php?id=88848" class="special" target='_blank'>Learn more</a>
+</li>
+<li>
+<a href="http://www.nature.com/articles/ncomms12786.pdf" class="special" target='_blank'>Nature Communications paper</a>
+</li>
+</ul>
+</article>
+<!-- <article>
+<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+<h3 class="major">Vegetation response to climate anomalies</h3>
+<p>In order to mitigate the ecological, economical and social consequences of
+future climate change, we must understand and quantify the response of vegetation to short-term climate anomalies. In this study we developed a statistical model of vegetation resilience and resistance to drought and temperature anomalies. Our model is the first to simultaneously derive vegetation resistance and resilience metrics at a global scale, explicitly taking into account the spatial variability of short-term climate anomalies and data reliability. Its results highlight the impact of tree cover, non-tree vegetation and bare soil on vegetation resilience.</p>
+<ul class="actions">
+<li>
+<a href="pubs/2015_Keersmaecker_GEB_model_quantifying_global_vegetation_resistance_and_resilience" class="special" target='_blank'>GEB paper</a>
+</li>
+</ul>
+</article> -->
+</section>
+</div>
+</section>
+
+</section>

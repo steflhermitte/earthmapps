@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section id="banner">
+  <div class="inner">
+    <div class="logo"><span class="icon fa-globe"></span></div>
+    <h2>{{ site.title }}</h2>
+    <p>{{ site.description }}</p>
+  </div>
+</section>
+
+<section id="wrapper">
+  <section class="wrapper spotlight style1">
+    <div class="inner">
+      <span class="image"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" /></span>
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </section>
+</section>
