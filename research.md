@@ -4,7 +4,7 @@ title: "Research"
 banner_title: "Research"
 subtitle: "Connecting observations, models and AI"
 banner_icon: fa-map
-background_image: "/images/bg_Atacama.jpg"
+background_image: "/images/bg_Netherlands.jpg"
 # theme_class: "atacama"
 permalink: "/research.html"
 ---
