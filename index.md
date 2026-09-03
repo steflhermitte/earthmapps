@@ -22,7 +22,8 @@ actions:
     url: /vacancy.html
     icon: fa-graduation-cap
 ---
-## Connecting Earth observation, Models and AI
+<!-- ## Connecting Earth observation, Models and AI -->
+## Earth Observation, Environmental Modelling & GeoAI
 {: .major}
 
 EarthMapps is a research group led by Stef Lhermitte at the [Department of Earth & Environmental Science](https://ees.kuleuven.be/en) of KU Leuven. We study how ecosystems, landscapes and the cryosphere respond to climate variability, environmental change and natural disturbances.
